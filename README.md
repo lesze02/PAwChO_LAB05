@@ -8,7 +8,7 @@ root@Szymon:/home# cp goapp /mnt/c/Users/szyme/Documents/DockerLab5/
 docker build -t lab5_obraz .
 docker run -d -p 8080:8080 --name lab5_kontener lab5_obraz
 
-Polecenie uruchamiające serwer "/goapp"
+Polecenie uruchamiające serwer: "/goapp"
 
 ##Polecenia potwierdzające poprawne działanie
 
